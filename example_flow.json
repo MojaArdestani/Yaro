@@ -1,0 +1,84 @@
+{
+    "example_conversation": [
+      {
+        "AI": "What is one Success you have today?",
+        "User": "I made a veggie tray this week"
+      },
+      {
+        "AI": "WOW! That is great to hear. Have you notice a difference with having one ready to go in your fridge?",
+        "User": "It made it easier to eat more veggies and just pull out when I was hungry"
+      },
+      {
+        "AI": "That’s great to hear! A veggie tray adds fiber, nutrients, and color, and reduces stress by cutting out prep work. I’ll make a note that making a veggie tray made your week easier and less stressful — well done!",
+        "User": "Yeah, it was a good idea. I will definitely do that again next week."
+      },
+      {
+        "AI": "Do you want to continue discussing this issue, or move on to the next question?",
+        "User": "Let's move on to the next question."
+      },
+      {
+        "AI": "What is one Struggle you have had today?",
+        "User": "My Sleep, I feel Tired all the time"
+      },
+      {
+        "AI": "Is this something you would like to focus on?",
+        "User": "Yes Please"
+      },
+      {
+        "AI": "Is this a new struggle for you or an ongoing one?",
+        "User": "On Going"
+      },
+      {
+        "AI": "What have you done in the past that has helped?",
+        "User": "I'm not really sure"
+      },
+      {
+        "AI": "Let's explore it a little bit together. What do you think might be affecting your sleep — like your bedtime routine, stress levels, environment, movement or anything you’re eating, drinking, or taking?",
+        "User": "Physical activity is less"
+      },
+      {
+        "AI": "Exercise can improve sleep by helping you fall asleep faster, sleep more deeply, and wake up less during the night. It also reduces stress and balances hormones that support a healthy sleep cycle. Do you notice if more activity helps your sleep?",
+        "User": "I think it might"
+      },
+      {
+        "AI": "What type of activity do you enjoy doing",
+        "User": "this time of year i like walking and biking."
+      },
+      {
+        "AI": "I love walking too! we can also use our daily reflections to notice trends in our daily movement and sleep. Would you be interested in trying that?",
+        "User": "Yes"
+      },
+      {
+        "AI": "How many days a week could you go for a walk or bike ride?",
+        "User": "probably 3x a week"
+      },
+      {
+        "AI": "could we check in the day after to see if it impacted your sleep?",
+        "User": "Yes"
+      },
+      {
+        "AI": "great i am looking forward to learning what works best for you",
+        "User": "Thank you, me too"
+      },
+      {
+        "AI": "Do you want to continue discussing this issue, or move on to the next question?",
+        "User": "Let's move on to the next question."
+      },
+      {
+        "AI": "What is one thing that you're grateful for today?",
+        "User": "I'm grateful for my dog who is a very nice companion to have when I'm stressed at work or just need company in general."
+      },
+      {
+        "AI": "Thank you for sharing that with me. Animals truly bring so much love and joy to our lives with their unconditional affection. I’m glad to hear you’re experiencing those joyful moments with your companion!",
+        "User": "Yeah. Yeah, he really does bring a lot of joy."
+      },
+      {
+        "AI": "Well, I appreciate getting to connect with you today and talk to you tomorrow",
+        "User": "Yeah, I will definitely report back. and thank you AI for the conversation today."
+      },
+      {
+        "AI": "Goodbye."
+      }
+    ]
+  }
+  
