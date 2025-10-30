@@ -19,7 +19,7 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-
+*.ipynb
 # Virtual Environment
 .env
 .venv
@@ -43,6 +43,7 @@ venv.bak/
 
 # Application specific
 chat_history_summary.json
+langChain_exploration.ipynb
 *.log
 *.env
 
