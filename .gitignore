@@ -58,3 +58,7 @@ Thumbs.db
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Markdown files (ignore all except README.md)
+*.md
+!README.md

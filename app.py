@@ -3,17 +3,22 @@ This is a Streamlit-based conversational coaching chatbot application that guide
 through structured conversations with intelligent follow-ups using LangChain and GPT models.
 """
 
-from dotenv import load_dotenv
 import streamlit as st
+from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
-from utils import (
-    setup_streamlit_page,
+
+from chat_controller import (
     initialize_session_state,
-    render_chat_history,
-    setup_initial_question,
-    render_input_field,
-    render_end_conversation_button
+    setup_initial_question
 )
+from UI_utils import (
+    setup_streamlit_page,
+    render_chat_history,
+    render_input_field,
+    render_end_conversation_button,
+    MSG_CONVERSATION_ENDED_INFO
+)
+
 
 def initialize_llm():
     """Initialize and return the LLM instance."""
@@ -32,14 +37,14 @@ def main():
     # Setup initial question if needed
     setup_initial_question()
     
-    # Display chat history
-    render_chat_history()
+    # Display chat history (uses st.chat_message which auto-scrolls)
+    render_chat_history(llm)
     
-    # Render input field if conversation is active
+    # Render input field and buttons
     if st.session_state.conversation_active:
         render_input_field(llm)
     else:
-        st.info("The conversation has ended. Refresh the page to start a new chat.")
+        st.info(MSG_CONVERSATION_ENDED_INFO)
     
     # Render end conversation button
     render_end_conversation_button(llm)
